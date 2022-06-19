@@ -1,0 +1,26 @@
+{
+  "name": "design",
+  "version": "1.0.0",
+  "description": "E-commerce product page display",
+  "main": "index.js",
+  "scripts": {
+    "devlite": "live-server",
+    "compile:sass": "node-sass sass/style.scss css/style.css -w",
+    "start": "npm-run-all --parallel compile:sass devlite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timzo31/design.git"
+  },
+  "author": "TIMERA Mamadou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timzo31/design/issues"
+  },
+  "homepage": "https://github.com/timzo31/design#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "node-sass": "^7.0.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
